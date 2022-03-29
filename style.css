@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+}
+@media (min-width: 0) and (max-width: 446.9px){
+    .container{
+        font-size: 20px;
+    }
+}
+@media (min-width: 447px) and (max-width: 768.9px){
+    .container{
+        font-size: 30px;
+    }
+}
+@media (min-width: 769px) and (max-width: 989.9px){
+    .container{
+        font-size: 50px;
+    }
+}
+@media (min-width: 990px) and (max-width: 1199.9px){
+    .container{
+        font-size: 60px;
+    }
+}
